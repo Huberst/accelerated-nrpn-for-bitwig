@@ -5,7 +5,7 @@ With the encoders set to CC mode (Control Change - sending absolute values) on m
 
 Setting the encoders to NRPN so they send relative values (increase or decrease by 1) solves the value jumps, but unfortunately there is a catch!
 
-On top of all Akai control scripts that ship with Bitwig, you'll find the following notice:
+On top of Akai control scripts that ship with Bitwig, you'll find the following notice:
 
 > encoders can send nrpn, but it's broken. on fast movements, an encoder sends less data, 
 > which means, much less and delayed change of parameter values in the app.
